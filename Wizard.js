@@ -6846,7 +6846,7 @@ case 'setmenu': {
         }
       }
   break
-  case 'allmenu': case 'menu': case 'help': {
+  case 'allmenu': case 'اوامر': case 'الاوامر': {
 let datane = fs.readFileSync('./Launcher/lib/random.js')
 jsonData = JSON.parse(datane)
 randIndex = Math.floor(Math.random() * jsonData.length)
